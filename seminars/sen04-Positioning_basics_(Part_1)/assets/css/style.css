@@ -22,28 +22,38 @@
     margin-bottom: 85px;
 }
 
-/* .header-wrapper {} */
+.header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-.header-logo img {
+.header-logo>img {
     width: 137px;
     height: 40px;
 }
 
-.header-navbar {
-    color: #000;
-    font-family: Gilroy-Medium, sans-serif;
-    font-size: 14px;
-    font-weight: 400;
+.nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 
 .nav-list {
     list-style-type: none;
 }
 
-.homepage-link {
-    color: #F25822;
+.nav-link {
+    color: #000;
+    font-family: Gilroy-Medium, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
 
+.nav-link:hover {
+    font-family: Gilroy-SemiBold, sans-serif;
+    color: #F25822;
+}
 /*  */
 
 
@@ -52,16 +62,19 @@
     margin-bottom: 260px;
 }
 
-/* .jumbotron {} */
+.jumbotron {
+    display: flex;
+    justify-content: center;
+}
 
-.jumbotron-wrapper {
+.jumbotron {
     color: #888888;
     font-family: Gilroy-Medium, sans-serif;
     font-size: 20px;
     font-weight: 400;
 }
 
-.jumbotron-title {
+.jumbotron>div>h1 {
     color: #000;
     font-family: Gilroy-Bold, sans-serif;
     font-size: 60px;
@@ -69,7 +82,7 @@
     margin-bottom: 17px;
 }
 
-.jumbotron-wrapper p {
+.jumbotron>div>p {
     margin-bottom: 35px;
 }
 
@@ -99,12 +112,9 @@
 
 
 /* FOOTER */
-/* .footer {} */
-
-/* .footer-vendorbar {} */
-
-.vendor-list {
-    list-style-type: none;
+.footer-vendorsbar {
+    display: flex;
+    justify-content: space-between;
 }
 
 .vendor-logo {
