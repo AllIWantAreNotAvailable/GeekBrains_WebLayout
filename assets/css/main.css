@@ -1,0 +1,145 @@
+@import url(./reset.css); /* Reset CSS ©Eric A. and Kathryn S. Meyer */
+@import url(./gilroy.css); /* Project fonts */
+
+
+/* STYLESHEET */
+
+/* Additional */
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* End */
+
+/* Page header */
+.header {
+    background-color: #fff;
+}
+
+.header {
+    margin-top: 40px;
+    margin-bottom: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-link {
+
+}
+
+.home-logo {
+
+}
+
+.navbar {
+    width: 537px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+
+}
+
+.nav-link {
+    color: #000;
+    font-family: Gilroy, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 0;
+    letter-spacing: 0;
+}
+
+.nav-link:hover {
+    color: #F25822;
+    font-weight: 600;
+}
+/* End */
+
+
+/* Main */
+.main {
+    background-color: #fff;
+}
+
+.jumbotron {
+    margin-bottom: 162px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jumbotron-title {
+    margin-bottom: 20px;
+}
+
+.jumbotron-title {
+    color: #000;
+    font-family: Gilroy, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.jumbotron-text {
+    margin-bottom: 36px;
+}
+
+.jumbotron-text {
+    color: #888888FF;
+    font-family: Gilroy, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.jumbotron-img {
+    max-width: 545px;
+}
+
+.jumbotron-btns-group {
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jumbotron-btns-group a {
+    display: block;
+    text-decoration: none;
+}
+
+.btn {
+    max-height: 50px;
+    max-width: 140px;
+    padding: 15px 36px;
+    color: #AAAAAAFF;
+    border-radius: 50px;
+}
+
+.btn-primary {
+    color: #fff;
+    box-shadow: 4px 4px 8px 0 #F2582233;
+    background: #F25822FF;
+}
+
+.vendors {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* End */
