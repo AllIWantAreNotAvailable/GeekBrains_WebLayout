@@ -6,69 +6,150 @@
     <title>GrowBe – SEO & Digital Marketing For Your Website.</title>
 </head>
 <body>
-<header class="header container">
-    <a class="home-link" href="#">
-        <img class="home-logo" src="./assets/img/logo.png" alt="GrowBe-logo">
-    </a>
-    <nav class="navbar">
-        <ul class="nav-list">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Team</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
-        </ul>
-    </nav>
+<header class="header">
+    <div class="container d-flex">
+        <a class="home-link" href="#">
+            <img class="home-logo" src="./assets/img/logo.png" alt="GrowBe-logo">
+        </a>
+        <nav class="navbar">
+            <ul class="nav-list d-flex">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#jumbotron">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </header>
 <main class="main">
-    <section class="jumbotron container">
-        <div>
-            <h1 class="jumbotron-title">SEO & Digital Marketing For Your Website.</h1>
-            <p class="jumbotron-text">
-                Provide all kind of seo services and help to improve seo ranking. Globally incubate standards.
-            </p>
-            <div class="jumbotron-btns-group">
-                <a class="btn btn-primary" href="#">Start Now</a>
-                <a class="btn" href="#">Watch Video</a>
+    <section id="jumbotron" class="jumbotron">
+        <div class="container d-flex">
+            <div>
+                <h1 class="jumbotron-title">SEO & Digital Marketing For Your Website.</h1>
+                <p class="jumbotron-text">
+                    Provide all kind of seo services and help to improve seo ranking. Globally incubate standards.
+                </p>
+                <div class="jumbotron-btns-group d-flex">
+                    <a class="btn btn-primary" href="#">Start Now</a>
+                    <a class="btn" href="#">Watch Video</a>
+                </div>
+            </div>
+            <img class="jumbotron-img" src="./assets/img/jumbotron.png" alt="jumbotron">
+        </div>
+    </section>
+    <section id="vendors" class="vendors">
+        <div class="container d-flex">
+            <a class="vendor-link" href="#">
+                <img class="vendor-logo" src="./assets/img/vendor1.png" alt="liva-logo">
+            </a>
+            <a class="vendor-link" href="#">
+                <img class="vendor-logo" src="./assets/img/vendor2.png" alt="kanba-logo">
+            </a>
+            <a class="vendor-link" href="#">
+                <img class="vendor-logo" src="./assets/img/vendor3.png" alt="amara-logo">
+            </a>
+            <a class="vendor-link" href="#">
+                <img class="vendor-logo" src="./assets/img/vendor4.png" alt="aven-logo">
+            </a>
+            <a class="vendor-link" href="#">
+                <img class="vendor-logo" src="./assets/img/vendor5.png" alt="hexlab-logo">
+            </a>
+            <a class="vendor-link" href="#">
+                <img class="vendor-logo" src="./assets/img/vendor2.png" alt="kanba-logo">
+            </a>
+        </div>
+    </section>
+    <section id="features" class="features">
+        <div class="container d-flex">
+            <div class="feature-card d-flex">
+                <img class="feature-card-icon" src="./assets/img/icon_grow.png" alt="grow icon">
+                <div class="feature-card-body">
+                    <h2 class="feature-card-title">Grow Your Business</h2>
+                    <p class="feature-card-text">
+                        Leverage agile frameworks to provide a robust synopsis for high level overviews.
+                    </p>
+                </div>
+                <a class="feature-card-link" href="#">Read More...</a>
+            </div>
+            <div class="feature-card feature-card-active d-flex">
+                <img class="feature-card-icon" src="./assets/img/icon_leads.png" alt="leads icon">
+                <div class="feature-card-body">
+                    <h2 class="feature-card-title">Get Quality Ieads</h2>
+                    <p class="feature-card-text">
+                        Leverage agile frameworks to provide a robust synopsis for high level overviews.
+                    </p>
+                </div>
+                <a class="feature-card-link" href="#">Read More...</a>
+            </div>
+            <div class="feature-card d-flex">
+                <img class="feature-card-icon" src="./assets/img/icon_sales.png" alt="sales icon">
+                <div class="feature-card-body">
+                    <h2 class="feature-card-title">Drive More Sales</h2>
+                    <p class="feature-card-text">
+                        Leverage agile frameworks to provide a robust synopsis for high level overviews.
+                    </p>
+                </div>
+                <a class="feature-card-link" href="#">Read More...</a>
             </div>
         </div>
-        <img class="jumbotron-img" src="./assets/img/jumbotron.png" alt="jumbotron">
     </section>
-    <section id="vendors" class="vendors container">
-        <a class="vendor-link" href="#">
-            <img class="vendor-logo" src="./assets/img/vendor1.png" alt="liva-logo">
-        </a>
-        <a class="vendor-link" href="#">
-            <img class="vendor-logo" src="./assets/img/vendor2.png" alt="kanba-logo">
-        </a>
-        <a class="vendor-link" href="#">
-            <img class="vendor-logo" src="./assets/img/vendor3.png" alt="amara-logo">
-        </a>
-        <a class="vendor-link" href="#">
-            <img class="vendor-logo" src="./assets/img/vendor4.png" alt="aven-logo">
-        </a>
-        <a class="vendor-link" href="#">
-            <img class="vendor-logo" src="./assets/img/vendor5.png" alt="hexlab-logo">
-        </a>
-        <a class="vendor-link" href="#">
-            <img class="vendor-logo" src="./assets/img/vendor2.png" alt="kanba-logo">
-        </a>
+    <section id="services" class="services">
+        <header class="services-header container">
+            <h2 class="services-title">Why You Should Choose Us.</h2>
+            <p class="services-text">
+                Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business
+                applications through revolutionary catalysts.
+            </p>
+        </header>
+        <div class="container d-flex">
+            <div class="service-card d-flex">
+                <img class="service-card-img" src="./assets/img/reasearch.png" alt="reasearch img">
+                <div class="service-card-body">
+                    <h3 class="service-card-title">Keyword Research</h3>
+                    <p class="service-card-text">
+                        Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.
+                    </p>
+                </div>
+                <a class="btn btn-primary" href="#">Learn More</a>
+            </div>
+            <div class="service-card service-card-active d-flex">
+                <img class="service-card-img" src="./assets/img/optimizadion.png" alt="optimizadion img">
+                <div class="service-card-body">
+                    <h3 class="service-card-title">Seo Optimazadion</h3>
+                    <p class="service-card-text">
+                        Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.
+                    </p>
+                </div>
+                <a class="btn btn-primary" href="#">Learn More</a>
+            </div>
+            <div class="service-card d-flex">
+                <img class="service-card-img" src="./assets/img/marketing.png" alt="marketing img">
+                <div class="service-card-body">
+                    <h3 class="service-card-title">Social Marketing</h3>
+                    <p class="service-card-text">
+                        Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.
+                    </p>
+                </div>
+                <a class="btn btn-primary" href="#">Learn More</a>
+            </div>
+        </div>
     </section>
 </main>
 </body>

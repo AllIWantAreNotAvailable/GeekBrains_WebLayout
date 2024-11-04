@@ -1,0 +1,152 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    margin-top: 40px;
+    margin-bottom: 84px;
+}
+
+.navbar {
+    width: 537px;
+}
+
+.jumbotron {
+    margin-bottom: 162px;
+}
+
+.jumbotron-title {
+    margin-bottom: 20px;
+}
+
+.jumbotron-text {
+    margin-bottom: 36px;
+}
+
+.jumbotron-btns-group {
+    max-width: 316px;
+}
+
+.btn {
+    display: block;
+}
+
+.btn {
+    max-height: 50px;
+    max-width: 98px;
+}
+
+.btn {
+    padding: 15px 36px;
+    border-radius: 50px;
+}
+
+.btn-primary {
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0 #F25822;
+}
+
+.jumbotron-img {
+    max-width: 545px;
+}
+
+.vendors {
+    padding: 97px 0;
+}
+
+.features {
+    padding: 100px 0;
+}
+
+.feature-card {
+    padding: 40px 30px 25px 30px;
+}
+
+.feature-card {
+    flex-direction: column;
+    align-items: start;
+    justify-content: initial;
+    gap: 25px;
+}
+
+.feature-card-active {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.feature-card-title {
+    margin-bottom: 15px;
+}
+
+.services {
+    padding: 100px 0;
+}
+
+.services {
+    background: #FAFAFA;
+}
+
+.services-header {
+    margin-bottom: 55px;
+}
+
+.services-title {
+    margin-bottom: 20px;
+}
+
+.service-card {
+    background: #FFF;
+}
+
+.service-card {
+    max-width: 370px;
+}
+
+.service-card {
+    padding-bottom: 50px;
+}
+
+.service-card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: initial;
+}
+
+.service-card-active {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.service-card-img {
+    width: 100%;
+}
+
+.service-card-title {
+    margin-bottom: 23px;
+}
+
+.service-card-body {
+    padding: 0 30px;
+    margin-bottom: 39px;
+}
+
+.service-card>.btn {
+    max-width: 72px;
+    max-height: 50px;
+}
+
+.service-card>.btn {
+    padding: 16px 46px 16px 32px;
+}
+
+.service-card>.btn {
+    background-image: url(../img/arrow-right.svg);
+    background-size: 7px;
+    background-repeat: no-repeat;
+    background-position: center right 26px;
+}
