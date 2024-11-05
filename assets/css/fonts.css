@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+/* HERO */
 .hero-title {
     color: #222;
     font-family: Lato, serif;
@@ -23,3 +24,10 @@
 .hero-heading>span {
     color: #F16D7F;
 }
+/* END_HERO */
+
+/* OFFERS */
+/* END_OFFERS */
+
+/* PRODUCTS */
+/* END_PRODUCTS */
