@@ -1,3 +1,3 @@
-@import url(./reset.css); /* Reset CSS ©Eric A. and Kathryn S. Meyer */
-@import url(./fonts.css);
+@import url(./normalize.css);
 @import url(./layout.css);
+@import url(./fonts.css);

@@ -1,116 +1,25 @@
-@import url(./gilroy.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-
-.nav-link {
-    color: #000;
-    font-family: Gilroy, serif;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 0;
-    letter-spacing: 0;
-    text-decoration: none;
+.hero-title {
+    color: #222;
+    font-family: Lato, serif;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
 }
 
-.nav-link:hover {
-    color: #F25822;
-    font-weight: 600;
-}
-
-.jumbotron-title {
-    color: #000;
-    font-family: Gilroy, serif;
-    font-size: 60px;
+.hero-heading {
+    color: #222;
+    font-family: Lato,serif;
+    font-style: normal;
+    font-size: 32px;
     font-weight: 700;
-    line-height: 73px;
+    line-height: 38px;
+    text-transform: uppercase;
 }
 
-.jumbotron-text {
-    color: #888888FF;
-    font-family: Gilroy, serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-}
-
-.btn {
-    color: #AAAAAAFF;
-    font-family: Gilroy, serif;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 18px;
-    text-decoration: none;
-}
-
-.btn-primary {
-    color: #fff;
-}
-
-.feature-card-title {
-    color: #000;
-    font-family: Gilroy, serif;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 29px;
-}
-
-.feature-card-text {
-    color: #666666;
-    font-family: Gilroy, serif;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 150%;
-}
-
-.feature-card-link {
-    color: #000;
-    font-family: Gilroy, serif;
-    font-size: 11px;
-    font-weight: 700;
-    line-height: 150%;
-    text-decoration: none;
-}
-
-.services-title {
-    color: #000;
-    font-family: Gilroy, serif;
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 54px;
-    text-align: center;
-}
-
-.services-text {
-    color: #666666;
-    font-family: Gilroy, serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 150%;
-    text-align: center;
-}
-
-.service-card-title {
-    color: #000;
-    font-family: Gilroy, serif;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 29px;
-    text-align: center;
-}
-
-.service-card-text {
-    color: #AAAAAA;
-    font-family: Gilroy, serif;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 150%;
-    text-align: center;
-}
-
-.service-card>.btn {
-    color: #fff;
-    font-family: Gilroy, serif;
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 150%;
-    text-align: center;
+.hero-heading>span {
+    color: #F16D7F;
 }
