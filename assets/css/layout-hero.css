@@ -1,0 +1,25 @@
+.hero {
+    background-color: #F1E4E6;
+    margin-bottom: 65px;
+}
+
+.hero-wrapper {
+    gap: 64px;
+}
+
+.hero-inner {
+    align-items: center;
+}
+
+.hero-content {
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+}
+
+.hero-title {
+    margin: 0;
+}
+
+.hero-heading {
+    margin: 0;
+}

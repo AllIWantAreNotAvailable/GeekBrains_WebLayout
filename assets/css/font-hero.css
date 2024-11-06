@@ -1,0 +1,23 @@
+.hero-title {
+    color: #222;
+    font-family: Lato, serif;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.hero-heading {
+    color: #222;
+    font-family: Lato, serif;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+.hero-heading>span {
+    color: #F16D7F;
+}
