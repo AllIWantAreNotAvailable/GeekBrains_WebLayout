@@ -7,6 +7,10 @@
     gap: 64px;
 }
 
+.hero-img {
+    max-width: 570px;
+}
+
 .hero-inner {
     align-items: center;
 }
@@ -22,4 +26,16 @@
 
 .hero-heading {
     margin: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .hero-wrapper {
+        gap: 40px;
+    }
+
+    .hero-img {
+        max-width: 370px;
+    }
+
 }

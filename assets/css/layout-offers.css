@@ -28,25 +28,41 @@
 }
 
 .offer-card-bg-for-women {
-    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/img-offer-for-women.jpeg);
-    background-position: center;
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/img-offer-for-women.jpeg) center;
     background-size: cover;
 }
 
 .offer-card-bg-for-men {
-    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/img-offer-for-men.jpeg);
-    background-position: center;
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/img-offer-for-men.jpeg) center;
     background-size: cover;
 }
 
 .offer-card-bg-for-kids {
-    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/img-offer-for-kids.jpeg);
-    background-position: center;
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/img-offer-for-kids.jpeg) center;
     background-size: cover;
 }
 
 .offer-card-bg-accessories {
-    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/img-offer-accessories.jpeg);
-    background-position: center;
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/img-offer-accessories.jpeg) center;
     background-size: cover;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .offers {
+        margin-bottom: 110px;
+    }
+
+    .offers-wrapper {
+        grid-gap: 20px;
+    }
+
+    .offer-card {
+        padding: 59px 0;
+    }
+
+    .offer-card-row {
+        padding: 39px 0;
+    }
+
 }
