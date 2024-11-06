@@ -7,6 +7,10 @@
 .d-flex {
     display: flex;
 }
+
+.d-grid {
+    display: grid;
+}
 /* END_LAYOUT */
 
 
@@ -48,6 +52,7 @@
 /* HERO */
 .hero {
     background-color: #F1E4E6;
+    margin-bottom: 65px;
 }
 
 .hero-wrapper {
@@ -73,6 +78,55 @@
 /* END_HERO */
 
 /* OFFERS */
+.offers-wrapper {
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.offer-card-row {
+    grid-column: 1 / span 3;
+}
+
+.offer-card {
+    padding: 105px 0;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.offer-card-title {
+    margin: 0;
+    padding: 0;
+}
+
+.offer-card-text {
+    margin: 0;
+    padding: 0;
+}
+
+.offer-card-bg-for-women {
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("../img/img-offer-for-women.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.offer-card-bg-for-men {
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("../img/img-offer-for-men.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.offer-card-bg-for-kids {
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("../img/img-offer-for-kids.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.offer-card-bg-accessories {
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("../img/img-offer-accessories.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
 /* END_OFFERS */
 
 /* PRODUCTS */
