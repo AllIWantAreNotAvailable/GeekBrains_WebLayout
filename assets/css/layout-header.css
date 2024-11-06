@@ -1,0 +1,32 @@
+.header {
+    background-color: #222222;
+}
+
+.header-wrapper {
+    padding: 19px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-group {
+    max-width: 111px;
+    max-height: 38px;
+    align-items: center;
+    gap: 41px;
+}
+
+.nav-group {
+    max-width: 159px;
+    max-height: 29px;
+    align-items: center;
+    gap: 33px;
+}
+
+.logo {
+    max-width: 44px;
+    max-height: 38px;
+}
+
+.nav-icon {
+    max-height: 100%;
+}
