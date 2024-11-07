@@ -39,3 +39,25 @@
     }
 
 }
+
+@media only screen and (max-width: 767px) {
+
+    .hero {
+        padding: 148px 0;
+        margin-bottom: 64px;
+    }
+
+    .hero-wrapper {
+        gap: 0;
+        justify-content: center;
+    }
+
+    .hidden-sm {
+        display: none;
+    }
+
+    .hero-content {
+        padding-left: 15px;
+    }
+
+}
