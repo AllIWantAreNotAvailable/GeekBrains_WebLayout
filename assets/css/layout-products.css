@@ -21,6 +21,10 @@
     background-color: #F8F8F8;
 }
 
+.product-card-img {
+    width: 100%;
+}
+
 .product-card-body {
     padding: 25px 29px 20px 16px;
     flex-direction: column;
@@ -54,13 +58,30 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
+    .products-header {
+        margin-bottom: 73px;
+    }
+
     .products-wrapper {
         grid-template: repeat(3, 1fr) / repeat(2, 1fr);
         grid-gap: 16px;
     }
 
+    .product-card-body {
+        gap: 13px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .products-wrapper {
+        grid-template: repeat(6, 1fr) / repeat(1, 1fr);
+        gap: 16px
+    }
+
     .products-header {
-        margin-bottom: 73px;
+        margin-bottom: 65px;
     }
 
     .product-card-body {
