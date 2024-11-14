@@ -1,0 +1,16 @@
+.body {
+    background: var(--bg-color-light);
+    font-family: Lato, serif;
+}
+
+@media only screen and (max-width: 1139px) {
+
+
+
+}
+
+@media only screen and (max-width: 735px) {
+
+
+
+}

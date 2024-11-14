@@ -1,0 +1,27 @@
+:root {
+
+    /* color palette */
+    --color-light: #FFF;
+    --color-dark: #222;
+    --color-accent: #F16D7F;
+
+    /* utilities */
+    --container-lg: 1140px;
+    --container-md: 736px;
+    --container-sm: 343px;
+
+    /* text */
+    --text-color-accent: var(--color-accent);
+    --text-color-light: var(--color-light);
+    --text-color-dark: var(--color-dark);
+
+    /* body */
+    --bg-color-light: var(--color-light);
+
+    /* header */
+    --bg-color-dark: var(--color-dark);
+
+    /* hero */
+    --bg-color-hero: #F1E4E6;
+
+}
