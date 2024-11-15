@@ -1,6 +1,7 @@
 .body {
     background: var(--bg-color-light);
     font-family: Lato, serif;
+    color: var(--text-color-dark);
 }
 
 @media only screen and (max-width: 1139px) {
