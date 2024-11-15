@@ -18,6 +18,7 @@
     /* text */
     --text-color-accent: var(--color-accent);
     --text-color-light: var(--color-light);
+    --text-color-light-gray: var(--color-light-gray);
     --text-color-gray: var(--color-gray);
     --text-color-dark-gray: var(--color-dark-gray);
     --text-color-dark: var(--color-dark);
