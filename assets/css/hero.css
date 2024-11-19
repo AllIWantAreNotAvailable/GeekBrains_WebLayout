@@ -1,7 +1,7 @@
 .hero {
     --hero-max-height: 764px;
     max-height: var(--hero-max-height);
-    background-color: var(--color-accent-light);
+    background-color: var(--color-light-accent);
 }
 
 .hero__flex-template {
