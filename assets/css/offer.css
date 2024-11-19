@@ -1,0 +1,80 @@
+.offer {
+    padding: 60px 0;
+}
+
+.offer__grid-template {
+    grid-template: 260px 180px / repeat(3, 1fr);
+    gap: 30px;
+}
+
+.offer__nav-item {
+    justify-content: center;
+    align-items: center;
+}
+
+.offer__nav-link {
+    font-family: Lato, serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color-white);
+}
+
+.offer__nav-link_font-style::before {
+    content: "\A";
+    white-space: pre-line;
+}
+
+.offer__nav-link_font-style {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-accent);
+}
+
+.bg-for-women {
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/img-bg-offer-for-women.png) center;
+    background-size: cover;
+}
+
+.bg-for-men {
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/img-bg-offer-for-men.png) center;
+    background-size: cover;
+}
+
+.bg-for-kids {
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/img-bg-offer-for-kids.png) center;
+    background-size: cover;
+}
+
+.bg-accessories {
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/img-bg-offer-accessories.png) center;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 1139px) {
+
+    .offer {
+        padding: 65px 0;
+    }
+
+    .offer__grid-template {
+        grid-template: 167px 116px / repeat(3, 1fr);
+        gap: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 735px) {
+
+    .offer {
+        padding: 64px 0;
+    }
+
+    .offer__grid-template {
+        grid-template: repeat(3, 247px) 111px / 1fr;
+        gap: 32px;
+    }
+
+}
