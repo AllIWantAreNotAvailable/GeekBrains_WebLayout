@@ -1,3 +1,7 @@
+.hidden {
+    display: none;
+}
+
 .d-flex {
     display: flex;
 }
