@@ -32,6 +32,116 @@
     gap: 30px;
 }
 
+.products__card_flex-template {
+    background-color: var(--color-darl-white);
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.products-card__img {
+    --background-img: none;
+    height: 420px;
+    width: 100%;
+}
+
+.products-card__img:hover ~ .products-card__hover-btn {
+    display: inline-block;
+}
+
+.products-card__img:hover {
+    background: linear-gradient(rgba(58, 56, 56, 0.86), rgba(58, 56, 56, 0.86)), var(--background-img) center;
+}
+
+.bg-products-1 {
+    --background-img: url(../img/img-bg-products-1.png);
+    background: var(--background-img) center;
+    background-size: cover;
+}
+
+.bg-products-2 {
+    --background-img: url(../img/img-bg-products-2.png);
+    background: var(--background-img) center;
+    background-size: cover;
+}
+
+.bg-products-3 {
+    --background-img: url(../img/img-bg-products-3.png);
+    background: var(--background-img) center;
+    background-size: cover;
+}
+
+.bg-products-4 {
+    --background-img: url(../img/img-bg-products-4.png);
+    background: var(--background-img) center;
+    background-size: cover;
+}
+
+.bg-products-5 {
+    --background-img: url(../img/img-bg-products-5.png);
+    background: var(--background-img) center;
+    background-size: cover;
+}
+
+.bg-products-6 {
+    --background-img: url(../img/img-bg-products-6.png);
+    background: var(--background-img) center;
+    background-size: cover;
+}
+
+.products-card__hover-btn {
+    display: none;
+    background: none;
+    font-family: Lato, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--color-white);
+    border: 1px solid var(--color-white);
+}
+
+.hover-btn__icon {
+    width: 26px;
+    height: 24px;
+}
+
+.products-card__body_flex-template {
+    padding: 20px 17px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 13px;
+}
+
+.products-card__heading {
+    margin-top: 5px;
+    font-family: Lato, serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: var(--color-black);
+    text-transform: uppercase;
+}
+
+.products-card__text {
+    font-family: Lato, serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    color: var(--color-dark-grey);
+}
+
+.products-card__price {
+    margin-top: 5px;
+    background: none;
+    border: none;
+    font-family: Lato, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: var(--color-accent);
+}
+
 @media only screen and (max-width: 1139px) {
 
     .products {
