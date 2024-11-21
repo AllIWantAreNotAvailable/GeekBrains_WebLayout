@@ -1,0 +1,131 @@
+.header{
+    padding: 18px 0;
+    background-color: var(--color-dark);
+}
+
+.header__flex-template {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left-group-flex-template {
+    flex-flow: row wrap;
+    align-items: end;
+    gap: 41px;
+}
+
+.header__right-group-flex-template {
+    flex-flow: row wrap;
+    align-items: end;
+    gap: 33px;
+}
+
+.header__logo-img {
+    width: 44px;
+    height: 38px;
+}
+
+.header__search-btn {
+    background: none;
+    border: none;
+}
+
+.header-navbar__dropdown-toggle {
+    display: none;
+}
+
+.header-navbar__dropdown-toggle:checked ~ .header-navbar__dropdown {
+    height: auto;
+    width: auto;
+    padding: 32px;
+}
+
+.header-navbar__dropdown {
+    position: absolute;
+    top: 74px;
+    right: calc((100% - var(--max-width)) / 2);
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: 300;
+    clear: both;
+    transition: height .4s ease;
+    background-color: var(--color-white);
+}
+
+.header-navbar__dropdown-heading {
+    color: var(--color-black);
+    font-family: Lato, serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.header-navbar__groups-list {
+    margin-top: 14px;
+}
+
+.header-navbar__group-item {
+    padding: 10px 0;
+    list-style: none;
+}
+
+.header-navbar__group-link {
+    color: var(--color-accent);
+    font-family: Lato, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header-navbar__categories-list {
+    margin-left: 22px;
+}
+
+.header-navbar__categories-item {
+    margin-top: 11px;
+    list-style: none;
+}
+
+.header-navbar__categories-link {
+    color: var(--color-gray);
+    font-family: Lato, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-decoration: none;
+}
+
+.header__profile-btn {
+    background: none;
+    border: none;
+}
+
+.header__cart-btn {
+    background: none;
+    border: none;
+}
+
+@media only screen and (max-width: 1139px) {
+
+
+
+}
+
+@media only screen and (max-width: 735px) {
+
+    .header__profile-btn {
+        display: none;
+    }
+
+    .header__cart-btn {
+        display: none;
+    }
+
+}

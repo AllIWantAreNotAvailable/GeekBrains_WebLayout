@@ -1,3 +1,11 @@
-@import url(./normalize.css);
-@import url(./layouts.css);
+@import url(./reset.css);
 @import url(./fonts.css);
+@import url(./variables.css);
+@import url(./utilities.css);
+@import url(./header.css);
+@import url(./hero.css);
+@import url(./offer.css);
+@import url(./products.css);
+@import url(./feature.css);
+@import url(./subscribe.css);
+@import url(./footer.css);
