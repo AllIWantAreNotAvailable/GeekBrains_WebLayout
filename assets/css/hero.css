@@ -4,7 +4,7 @@
     background-color: var(--color-light-accent);
 }
 
-.hero__flex-template {
+.hero__header_flex-template {
     gap: 64px;
     justify-self: center;
     align-items: center;
@@ -44,7 +44,7 @@
         --hero-max-height: 368px;
     }
 
-    .hero__flex-template {
+    .hero__header_flex-template {
         gap: 39px;
     }
 
@@ -66,7 +66,7 @@
         --hero-max-height: 363px;
     }
 
-    .hero__flex-template {
+    .hero__header_flex-template {
         height: var(--hero-max-height);
     }
 

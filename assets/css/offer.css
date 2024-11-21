@@ -7,7 +7,7 @@
     gap: 30px;
 }
 
-.offer__nav-item {
+.offer__nav-item_flex-template {
     justify-content: center;
     align-items: center;
 }

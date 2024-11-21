@@ -3,19 +3,19 @@
     background-color: var(--color-dark);
 }
 
-.header__flex-template {
+.header__navbar_flex-template {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
 
-.header__left-group-flex-template {
+.header__left-group_flex-template {
     flex-flow: row wrap;
     align-items: end;
     gap: 41px;
 }
 
-.header__right-group-flex-template {
+.header__right-group_flex-template {
     flex-flow: row wrap;
     align-items: end;
     gap: 33px;
