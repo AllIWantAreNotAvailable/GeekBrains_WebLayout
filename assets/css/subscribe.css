@@ -5,11 +5,106 @@
     background-size: cover;
 }
 
+.subscribe__wrapper_flex-template {
+    justify-content: space-between;
+    align-items: end;
+}
+
+.subscribe__quote_flex-template {
+    max-width: 360px;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 28px;
+}
+
+.subscribe__quote-text {
+    font-family: Lato, serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: var(--color-dark);
+}
+
+.subscribe__quote-img {
+    border: 0 solid rgba(0, 0, 0, 0);
+    border-radius: 50%;
+}
+
+.subscribe__form_flex-template {
+    max-width: 557px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.subscribe__form-label {
+    font-family: Lato, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 167%;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-dark);
+}
+
+.subscribe__form-label-span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.subscribe__form-label-span::after {
+    content: "\A";
+    white-space: pre-line;
+}
+
+.subscribe__form-input {
+    width: 260px;
+    height: 50px;
+    padding-left: 25px;
+    border: 0 solid rgba(0, 0, 0, 0);
+    border-radius: 25px 0 0 25px;
+    background-color: #E1E1E1;
+    font-family: Lato, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--color-dark);
+}
+
+.subscribe__form-button {
+    width: 100px;
+    height: 50px;
+    padding-right: 10px;
+    border: 0 solid rgba(0, 0, 0, 0);
+    border-radius: 0 25px 25px 0;
+    background-color: var(--color-accent);
+    font-family: Lato, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    color: var(--color-white);
+}
+
 @media only screen and (max-width: 1139px) {
 
     .subscribe {
         padding-top: 64px;
         padding-bottom: 140px;
+        background-position: 25%;
+    }
+
+    .subscribe__wrapper_flex-template {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 48px;
+    }
+
+    .subscribe__form_flex-template {
+        gap: 27px;
     }
 
 }
@@ -19,6 +114,22 @@
     .subscribe {
         padding-top: 64px;
         padding-bottom: 110px;
+        background-position: 25%;
+    }
+
+    .subscribe__quote-text {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .subscribe__wrapper_flex-template {
+        gap: 59px;
+    }
+
+    .subscribe__form-label {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 153%;
     }
 
 }
