@@ -1,13 +1,24 @@
 .subscribe {
-    padding: 97px 0;
+    padding-top: 97px;
+    padding-bottom: 128px;
     background: linear-gradient(rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)), url(../img/img-bg-subscribe.png) center;
     background-size: cover;
 }
 
 @media only screen and (max-width: 1139px) {
 
+    .subscribe {
+        padding-top: 64px;
+        padding-bottom: 140px;
+    }
+
 }
 
 @media only screen and (max-width: 735px) {
+
+    .subscribe {
+        padding-top: 64px;
+        padding-bottom: 110px;
+    }
 
 }
